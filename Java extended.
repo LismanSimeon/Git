@@ -1,0 +1,23 @@
+/**
+*Project practice@learn
+*SimeonLuyando@him
+*
+*/
+
+
+import java.util.scanner;
+
+
+public class mile{
+public static void main( String [] args)
+{
+    Scanner vap = new Scanner(System.in);
+    int days = vap.nextInt();
+            
+          int amount = days*24;
+          int hr = amount*60;
+          int min = hr*60;
+          int sec = min*60;
+          System.out.println(sec);
+          
+            
